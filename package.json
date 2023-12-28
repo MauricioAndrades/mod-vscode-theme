@@ -17,5 +17,8 @@
         "path": "./themes/mod-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "postcss-unprefix": "^2.1.4"
   }
 }
