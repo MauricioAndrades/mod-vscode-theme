@@ -1,1 +1,20 @@
-{ "name": "mod", "displayName": "mod", "description": "none", "version": "0.0.1", "engines": { "vscode": "^1.74.0" }, "categories": ["Themes"], "contributes": { "themes": [{ "label": "mod", "uiTheme": "vs-dark", "path": "./themes/mod-color-theme.json" }] }, "dependencies": { "postcss-unprefix": "^2.1.4" } }
+{
+    "name": "mod-one-dark",
+    "displayName": "mod one dark",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "mod",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mod-color-theme.json"
+            }
+        ]
+    }
+}
