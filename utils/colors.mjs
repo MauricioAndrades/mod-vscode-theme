@@ -1,4 +1,5 @@
-[
+import colors from "./colors.json" assert { type: "json" };
+export default [
     "#F4AF6D",
     "#F2AD6A",
     "#F1AC68",
@@ -1211,5 +1212,18 @@
     "#E77300",
     "#E47100",
     "#E27000",
-    "#E06F00",
-]
+    "#E06F00"
+];
+
+const { exec } = require('child_process');
+
+const fs=exec('ls -l', (error, stdout, stderr) => {
+  if (error) {
+    console.error(`exec error: ${error}`);
+    return;
+  }
+  console.log(`stdout: ${stdout}`);
+  console.error(`stderr: ${stderr}`);
+});
+
+console.log(colors);
